@@ -1,15 +1,15 @@
-#collection = ["moo", "coo", "doo"]
+#array = ["moo", "coo", "doo"]
 
-def my_collect(collection)
+def my_collect(array)
   index = 0
-  array = []
-  while index < collection.length
-    array << yield(collection[index])
+  collection = []
+  while index < array.length
+    collection << yield(array[index])
     index += 1
   end
-  array
+  collection
 end
 
-my_collect(collection) do |element|
+my_collect(array) do |element|
   element
 end
