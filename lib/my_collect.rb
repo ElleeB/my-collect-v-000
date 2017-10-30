@@ -1,4 +1,4 @@
-collection = ["1", "2", "3"]
+collection = ["moo", "coo", "doo"]
 
 def my_collect(collection)
   new_collection = []
@@ -8,8 +8,9 @@ def my_collect(collection)
     yield(collection[index])
     index += 1
   end
+  collection
 end
 
 my_collect(collection) do |element|
-  puts "Hello there. You are number #{element}!"
+  element
 end
