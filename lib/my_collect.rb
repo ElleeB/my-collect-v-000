@@ -1,13 +1,13 @@
-collection = ["moo", "coo", "doo"]
+#collection = ["moo", "coo", "doo"]
 
 def my_collect(collection)
   index = 0
-  collection = []
+  new_collection = []
   while index < collection.length
-    collection << yield(collection[index])
+    new_collection << yield(collection[index])
     index += 1
   end
-  collection
+  new_collection
 end
 
 my_collect(collection) do |element|
