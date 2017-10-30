@@ -6,7 +6,7 @@ def my_collect(collection)
 
   while index < collection.length
     yield(collection[index])
-    new_collection << index += 1
+    index += 1
   end
 end
 
