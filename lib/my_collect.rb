@@ -1,4 +1,4 @@
-#array = ["moo", "coo", "doo"]
+array = ["moo", "coo", "doo"]
 
 def my_collect(array)
   index = 0
@@ -10,6 +10,6 @@ def my_collect(array)
   collection
 end
 
-my_collect(collection) do |element|
+my_collect(array) do |element|
   element
 end
