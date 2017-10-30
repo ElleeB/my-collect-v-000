@@ -10,6 +10,6 @@ def my_collect(array)
   collection
 end
 
-my_collect(array) do |element|
+my_collect(collection) do |element|
   element
 end
