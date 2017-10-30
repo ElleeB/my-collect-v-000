@@ -1,4 +1,4 @@
-array = ["moo", "coo", "doo"]
+#array = ["moo", "coo", "doo"]
 
 def my_collect(array)
   index = 0
