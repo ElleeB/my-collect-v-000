@@ -1,4 +1,3 @@
-collection = ["moo", "coo", "doo"]
 
 def my_collect(collection)
   new_collection = []
@@ -11,6 +10,13 @@ def my_collect(collection)
   collection
 end
 
-my_collect(collection) do |element|
-  element
+collection = ['ruby', 'javascript', 'python', 'objective-c']
+
+my_collect(collection) do |lang|
+  lang.upcase
+end
+
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collect(array) do |name|
+  name.split(" ").first
 end
