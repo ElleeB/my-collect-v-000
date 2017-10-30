@@ -1,3 +1,4 @@
+collection = ["1", "2", "3"]
 
 def my_collect(collection)
   index = 0
