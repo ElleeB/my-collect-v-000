@@ -1,4 +1,4 @@
-collection = ["1", "2", "3"]
+
 
 def my_collect(collection)
   index = 0
@@ -10,6 +10,6 @@ def my_collect(collection)
   collection
 end
 
-my_collect(collection) do |element|
+my_collect(["1", "2", "3"]) do |element|
   puts "Hello there. You are number #{element}!"
 end
