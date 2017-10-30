@@ -1,5 +1,5 @@
 
-my_collect(collection)
+def my_collect(collection)
   index = 0
 
   while index < collection.length
