@@ -11,5 +11,5 @@ def my_collect(collection)
 end
 
 my_collect(collection) do |element|
-  puts "#{element}"
+  puts "Hello there. You are number #{element}!"
 end
